@@ -1,0 +1,54 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+.yellow{
+	color: #f7b617;
+}
+
+/*===NavBar===*/
+.navbar-default{
+	background-color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	background-color: #777;
+	color: #fff;
+}
+/*===Hamburguesa===*/
+.navbar-default .navbar-toggle{
+	border: none;
+}
+.navbar-toggle{
+	float: left;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: transparent;
+}
+.nav .navbar-nav li:hover{
+	background-color: #f8f8f8;
+}
+/*===Logo===*/
+.navbar-brand{
+	float: right;
+}
+.navbar .navbar-default{
+	color: #f7b617;
+}
+
+@media (min-width: 768px){
+	.navbar-nav{
+		float: right;
+	}
+}
+
+/*.navbar-default .navbar-brand{
+	color: #fcb425;
+}
+.navbar-default .navbar-brand span{
+	color: #5e5e5e;
+}*/
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+/*===Slide===*/
