@@ -1,11 +1,19 @@
 *{
 	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
 }
 .yellow{
 	color: #f7b617;
 }
 .bg-yellow{
 	background-color: #f7b617;
+}
+.font-ralewey{
+	font-family: 'Raleway', sans-serif;
+}
+.container-fluid{
+	padding: 0;
 }
 /*===NavBar===*/
 .navbar{
@@ -52,13 +60,10 @@
 
 /*===Slide===*/
 
-.row .col-lg-12{
+.box{
 	padding: 0;
 	display: flex;
 	align-items: center;
-}
-.box{
-	position: relative;
 	overflow: hidden;
 	height: 440px;
 }
@@ -73,13 +78,11 @@
 	right: 0;
 	padding: 30px;
 	color: #fff;
-	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 }
 .box-info img{
 	width: 75px;
 	padding-left: 6px;
-	font-family: 'Raleway', sans-serif;
 }
 .box-info hr{
 	width: 100px;
@@ -90,6 +93,10 @@
 .btn-default{
 	font-weight: 700;
 	display: flex;
+}
+.text-info-desktop{
+	padding: 30px;
+	text-align: left;
 }
 
 @media (max-width: 768px){
@@ -105,3 +112,81 @@
 	}
 }
 /*===Information Movil===*/ 
+.info-movil{
+	padding: 33px 0 !important;
+	color: #fff;
+}
+.info-movil .col-xs-12{
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+	padding-left: 45px;
+}
+.info-movil .col-xs-12 img{
+	width: 290px;
+	margin: 22px;
+}
+.info-movil .col-xs-12 h2{
+	padding: 10px;
+}
+@media (max-width: 768px){
+	.info-movil .col-xs-12{
+		border: 1px solid #fff;
+	}
+	.info-movil{
+		padding: 33px !important;
+	}
+	.bg-yellow .text-center{
+		display: block;
+		margin-top: 50px;
+		color: #fff;
+		margin-bottom: 20px;
+	    padding-bottom: 12px;
+	}
+	.text-info-desktop{
+		display: none;
+	}
+}
+@media (min-width: 769px) {
+  	.text-info-movil{
+		display: none;
+	}
+	.info-movil h2{
+		display: none;
+	}
+	.info-movil .col-xs-12{
+		padding-left: 45px;
+	}
+	.info-movil .col-xs-12 img{
+		display: flex;
+	}
+}
+
+/*===Driver-image===*/
+
+.driver-content{
+	background-color: #0a0a0a;
+	opacity: 0.7;
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+.driver-img{
+	margin-top: 0;
+	width: 100%;
+}
+.driver button{
+	font-weight: 700;
+}
+.img-section .col-xs-12{
+	padding: 0;
+}
+@media (max-width: 768px){
+	.driver-img{
+		margin-top: 0;
+		width: 100%;
+	}
+	.driver-content{
+
+	}
+}
