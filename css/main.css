@@ -7,10 +7,10 @@
 .bg-yellow{
 	background-color: #f7b617;
 }
-
 /*===NavBar===*/
 .navbar{
 	margin-bottom: 0;
+	padding: 15px 28px;
 }
 .navbar-default{
 	background-color: #fff;
@@ -18,6 +18,12 @@
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
 	background-color: #777;
 	color: #fff;
+}
+.navbar-header{
+	display: flex;
+}
+.link-pg{
+	font-weight: 700;
 }
 /*===Hamburguesa===*/
 .navbar-default .navbar-toggle{
@@ -35,6 +41,7 @@
 /*===Logo===*/
 .navbar-brand img{
 	float: right;
+	margin-top: -6px;
 }
 
 @media (min-width: 768px){
@@ -43,35 +50,25 @@
 	}
 }
 
-/*.navbar-default .navbar-brand{
-	color: #fcb425;
-}
-.navbar-default .navbar-brand span{
-	color: #5e5e5e;
-}*/
-
-/*font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif;
-*/
-
 /*===Slide===*/
 
 .row .col-lg-12{
 	padding: 0;
+	display: flex;
+	align-items: center;
 }
 .box{
 	position: relative;
 	overflow: hidden;
-	height: 68vh;
+	height: 440px;
 }
-.box img:first-child{
+.box .img-taxi{
 	width: 100%;
 	position: absolute;
 	bottom: 0;
 }
 .box-info{
 	position: absolute;
-	width: 100px;
 	width: 35%;
 	right: 0;
 	padding: 30px;
@@ -80,5 +77,31 @@ font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 }
 .box-info img{
-	width: 40px;
+	width: 75px;
+	padding-left: 6px;
+	font-family: 'Raleway', sans-serif;
 }
+.box-info hr{
+	width: 100px;
+}
+.title-info{
+	padding-top: 10px;
+}
+.btn-default{
+	font-weight: 700;
+	display: flex;
+}
+
+@media (max-width: 768px){
+	.box-info-movil{
+		display: block;
+		width: 65%;
+	}
+	.box-info-movil img{
+		width: 100px;
+	}
+	.box-info-desktop{
+		display: none;
+	}
+}
+/*===Information Movil===*/ 
