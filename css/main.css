@@ -3,6 +3,9 @@
 	padding: 0;
 	margin: 0;
 }
+.row{
+	margin: 0;
+}
 .yellow{
 	color: #f7b617;
 }
@@ -187,6 +190,23 @@
 		width: 100%;
 	}
 	.driver-content{
-
+	}
+}
+/*===Mapa===*/
+.map{
+	color: #fff;
+}
+.map .col-xs-12 span{
+	display: inline-block;
+}
+.text-map{
+	padding-left: 2px;
+}
+@media (min-width: 769px) {
+	#map{
+	    height: 350px;
+	    width: 40%;
+	    margin: 35px;
+	    left: 100px;
 	}
 }
